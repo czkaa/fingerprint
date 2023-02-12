@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: 'fingerprint/',
+    path: '/fingerprint/',
     name: 'Home',
     component: Home
   },
