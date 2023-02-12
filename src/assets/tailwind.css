@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Eiko;
+  src: url(./fonts/PPEiko-Thin.otf) format('opentype');
+}
+
+@font-face {
+  font-family: Keroine;
+  src: url(./fonts/Keroine.otf) format('opentype');
+}
+
+@font-face {
+  font-family: Diatype;
+  src: url(./fonts/Diatype.otf) format('opentype');
+}
+
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
