@@ -66,7 +66,7 @@ export default {
         method: "POST",
         processData: false,
         // url: "http://localhost:8888/postFingerprint.php",
-        url: "https://czkaa.github.io/fingerprint/postFingerprint.php",
+        url: "//czkaa.github.io/fingerprint/postFingerprint.php",
         data: JSON.stringify(fingerprint),
       })
         .done(function (data) {
