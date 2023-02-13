@@ -1,7 +1,3 @@
 module.exports = {
-  publicPath: '/fingerprint/',
-  devServer: {
-        proxy: 'http://localhost:8080/#/',
-    },
-  // publicPath: '../211209/'
-}
+    publicPath: process.env.NODE_ENV === "production" ? "/test/" : "/",
+  };

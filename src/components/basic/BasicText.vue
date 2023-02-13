@@ -3,11 +3,12 @@
     basic-text
     lang="en"
     :class="[
+       'font-sans',
     {
-      'text-lg font-diatype ': size ===  'lg',
-      'text-md font-diatype ': size ===  'md',
-      'text-sm font-diatype ': size === undefined || size === 'sm',
-      'text-xs font-diatype ': size === 'xs',
+      'text-lg': size ===  'lg',
+      'text-md': size ===  'md',
+      'text-sm': size === undefined || size === 'sm',
+      'text-xs': size === 'xs',
     }]"
     v-html="text"/>
 </template>

@@ -60,16 +60,13 @@ export default {
     postData() {
       const fingerprint = this.fingerprint;
       console.log(fingerprint);
-      console.log(
-        "http://fingerprint.identification-ceremonies.watch/postFingerprint.php"
-      );
       $.ajax({
         contentType: "application/json", // php://input
         dataType: "jsonp",
         method: "POST",
         processData: false,
         // url: "http://localhost:8888/postFingerprint.php",
-        url: "//fingerprint.identification-ceremonies.watch/postFingerprint.php",
+        url: "http:////fingerprint.identification-ceremonies.watch/postFingerprint.php",
         data: JSON.stringify(fingerprint),
       })
         .done(function (data) {

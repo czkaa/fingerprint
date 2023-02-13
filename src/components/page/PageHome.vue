@@ -33,7 +33,7 @@
 
           <div
             :class="[
-              'absolute w-full top-0 p-3',
+              'absolute w-full top-0',
               'grid grid-cols-2 gap-x-20 gap-y-0.5',
               'text-xs text-left auto-cols-min break-all leading-none opacity-70'
             ]"
